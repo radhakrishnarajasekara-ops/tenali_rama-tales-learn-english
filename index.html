@@ -4,112 +4,92 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tenali Rama Tales - Learn English | Rk EduApps</title>
-    <meta name="description" content="Learn English with Tenali Rama stories. Signup & unlock premium content with Razorpay.">
-    
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
-            font-family: 'Segoe UI', system-ui, sans-serif;
-            background: #f8fafc;
-            color: #1e2937;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #f8f9fa;
+            color: #333;
         }
         header {
             background: linear-gradient(135deg, #1e3a8a, #3b82f6);
             color: white;
-            padding: 1rem 0;
-            position: sticky;
-            top: 0;
-            z-index: 100;
+            padding: 15px 0;
         }
-        .logo {
+        .header-container {
             max-width: 1200px;
             margin: 0 auto;
-            padding: 0 20px;
-            font-size: 28px;
-            font-weight: bold;
             display: flex;
             align-items: center;
-            gap: 10px;
+            justify-content: space-between;
+            padding: 0 20px;
         }
-        .logo span { color: #fbbf24; }
+        .logo {
+            display: flex;
+            align-items: center;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .logo span { color: #f59e0b; }
 
         .hero {
-            background: linear-gradient(135deg, #1e40af, #60a5fa);
+            background: linear-gradient(135deg, #1e40af, #3b82f6);
             color: white;
             text-align: center;
             padding: 100px 20px 80px;
         }
-        .hero h1 { font-size: 46px; margin-bottom: 10px; }
-        .hero h2 { font-size: 26px; margin-bottom: 25px; }
+        .hero h1 { font-size: 42px; margin-bottom: 15px; }
+        .hero h2 { font-size: 24px; margin-bottom: 30px; }
 
         .download-btn {
             background: #f59e0b;
             color: white;
-            padding: 20px 55px;
-            font-size: 26px;
-            font-weight: bold;
+            padding: 18px 50px;
+            font-size: 23px;
             border-radius: 50px;
             text-decoration: none;
-            display: inline-flex;
-            align-items: center;
-            gap: 12px;
-            box-shadow: 0 12px 30px rgba(245, 158, 11, 0.45);
-            transition: all 0.3s;
-            margin: 30px 0 15px;
+            display: inline-block;
+            margin: 30px 0;
+            font-weight: bold;
+            box-shadow: 0 10px 20px rgba(245, 158, 11, 0.4);
         }
         .download-btn:hover {
-            transform: scale(1.08);
-            box-shadow: 0 15px 35px rgba(245, 158, 11, 0.5);
+            transform: scale(1.05);
         }
-
-        .warning {
-            background: #fef3c7;
-            color: #854d0e;
-            padding: 15px 25px;
-            border-radius: 12px;
-            max-width: 600px;
-            margin: 25px auto;
-            font-size: 15px;
-        }
-
         .note {
-            font-size: 16px;
-            margin-top: 10px;
-            opacity: 0.95;
+            font-size: 15px;
+            color: #fef08c;
+            margin-top: 15px;
         }
     </style>
 </head>
 <body>
 
     <header>
-        <div class="logo">🎓 <span>Rk</span> EduApps</div>
+        <div class="header-container">
+            <div class="logo">🎓 <span>Rk</span> EduApps</div>
+        </div>
     </header>
 
     <section class="hero">
-        <h1>Tenali Rama Tales</h1>
-        <h2>Learn English with Fun Stories</h2>
-        <p style="font-size: 21px; max-width: 720px; margin: 0 auto 30px;">
-            Signup • Razorpay Payments • Premium Stories
-        </p>
-
-        <!-- Main Download Button -->
-        <a href="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/tenali-rama-tales/main/tenali_rama-tales-learn-english.apk" 
-           class="download-btn"
-           download="tenali_rama-tales-learn-english.apk">
-            📥 Download & Install Now
-        </a>
-
-        <p class="note"><strong>Free to download • In-app purchases available</strong></p>
-
-        <div class="warning">
-            <strong>Important for Payment:</strong><br>
-            After installation, please allow "Install from Unknown Sources" if prompted.<br>
-            Login / Signup works after successful installation.
+        <div class="container">
+            <h1>Tenali Rama Tales</h1>
+            <h2>Learn English with Fun Indian Stories</h2>
+            <p style="font-size: 20px; max-width: 700px; margin: 0 auto 30px;">
+                Improve your English through classic Tenali Rama tales
+            </p>
+            
+            <!-- Improved Download Button -->
+            <a href="https://raw.githubusercontent.com/radhakrishnarajasekara-ops/tenali_rama-tales-learn-english/main/tenali_rama-tales-learn-english.apk" 
+               class="download-btn"
+               download="tenali_rama-tales-learn-english.apk">
+                📥 Download APK Now
+            </a>
+            
+            <p class="note">↓ Long press the button and select "Download link" if install prompt appears</p>
+            
+            <p><strong>Free • Offline • Latest Version</strong></p>
         </div>
-
-        <p style="margin-top: 40px; font-size: 18px;">
-            <strong>Coming Soon on Google Play Store</strong>
-        </p>
     </section>
 
 </body>
